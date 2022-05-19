@@ -1,0 +1,168 @@
+Microsoft Windows [Version 10.0.19043.1706]
+(c) Microsoft Corporation. Tüm hakları saklıdır.
+
+C:\Users\pc>cd gandlf
+
+C:\Users\pc\GaNDLF>conda activatevenv_gandlf
+
+CommandNotFoundError: No command 'conda activatevenv_gandlf'.
+
+
+C:\Users\pc\GaNDLF>conda activate venv_gandlf
+
+(venv_gandlf) C:\Users\pc\GaNDLF>
+(venv_gandlf) C:\Users\pc\GaNDLF>python gandlf_run  -c ./images_and_labels/model.yaml -i ./images_and_labels/train.csv -m ./images_and_labels/model -t True -d cpu
+WARNING: Initializing 'norm_type' as 'batch'
+WARNING: Initializing 'verbose' as False
+WARNING: Initializing 'medcam_enabled' as False
+WARNING: Initializing 'save_training' as False
+WARNING: Initializing 'save_output' as False
+WARNING: Initializing 'in_memory' as False
+WARNING: Initializing 'pin_memory_dataloader' as False
+WARNING: Initializing 'enable_padding' as False
+WARNING: Initializing 'scaling_factor' as 1
+WARNING: Initializing 'clip_grad' as None
+WARNING: Initializing 'track_memory_usage' as False
+WARNING: Initializing 'print_rgb_label_warning' as True
+WARNING: Initializing 'data_postprocessing' as {}
+WARNING: Initializing 'grid_aggregator_overlap' as crop
+WARNING: Initializing 'clip_mode' as None
+WARNING: Setting default step_size to: 0.02
+Trying to resume training without changing any parameters from previous run.
+Using previously saved parameter file ./images_and_labels/model\parameters.pkl
+Using previously saved testing data ./images_and_labels/model\testing_0\data_testing.pkl
+Using previously saved training+validation data ./images_and_labels/model\testing_0\data_trainAndVal.pkl
+Number of channels :  1
+Constructing queue for train data: 100%|█████████████████████████████████████████████████████| 643/643 [00:05<00:00, 117.50it/s]
+Calculating weights
+Constructing queue for penalty data: 100%|███████████████████████████████████████████████████| 643/643 [00:02<00:00, 270.97it/s]
+Looping over training data for penalty calculation: 100%|████████████████████████████████████| 643/643 [00:04<00:00, 136.95it/s]
+Constructing queue for validation data: 100%|████████████████████████████████████████████████| 161/161 [00:01<00:00, 114.97it/s]
+All Keys :  ['subject_id', '1', 'spacing', 'label', 'path_to_metadata']
+Since Device is CPU, Mixed Precision Training is set to False
+Constructing queue for testing data: 100%|███████████████████████████████████████████████████| 201/201 [00:00<00:00, 271.66it/s]
+Initializing training at : 2022/05/19::00:45:31
+Using device: cpu
+********************
+********************
+Starting Epoch :  0
+********************
+Starting Training :
+********************
+Looping over training data: 100%|█████████████████████████████████████████████████████████████| 643/643 [08:10<00:00,  1.31it/s]
+     Epoch Final   Train loss :  1.1061547924163369
+     Epoch Final   Train dice :  0.10446137996335422
+********************
+Starting validation :
+********************
+Looping over validation data: 100%|███████████████████████████████████████████████████████████| 161/161 [00:33<00:00,  4.75it/s]
+     Epoch Final   validation loss :  3.838653308264217
+     Epoch Final   validation dice :  0.15217735160211598
+********************
+Starting testing :
+********************
+Looping over testing data: 100%|██████████████████████████████████████████████████████████████| 201/201 [00:43<00:00,  4.66it/s]
+     Epoch Final   testing loss :  3.827641568966766
+     Epoch Final   testing dice :  0.1521425272398327
+Time taken for epoch :  9.461499333381653  mins
+WARNING: Current model is not supported by ONNX/OpenVINO!
+Current Best epoch:  0
+********************
+********************
+Starting Epoch :  1
+********************
+Starting Training :
+********************
+Looping over training data: 100%|███████████████████████████████████████████████████████████| 643/643 [1:00:55<00:00,  5.68s/it]
+     Epoch Final   Train loss :  1.0805724195521875
+     Epoch Final   Train dice :  0.11029297655700339
+********************
+Starting validation :
+********************
+Looping over validation data: 100%|███████████████████████████████████████████████████████████| 161/161 [00:33<00:00,  4.75it/s]
+     Epoch Final   validation loss :  1.1134525456043505
+     Epoch Final   validation dice :  0.10931167520166184
+********************
+Starting testing :
+********************
+Looping over testing data: 100%|██████████████████████████████████████████████████████████████| 201/201 [00:42<00:00,  4.76it/s]
+     Epoch Final   testing loss :  1.1133580142585793
+     Epoch Final   testing dice :  0.10934151601583804
+Time taken for epoch :  62.19035447041194  mins
+Current Best epoch:  1
+********************
+********************
+Starting Epoch :  2
+********************
+Starting Training :
+********************
+Looping over training data: 100%|███████████████████████████████████████████████████████████| 643/643 [2:17:06<00:00, 12.79s/it]
+     Epoch Final   Train loss :  1.0866278346923424
+     Epoch Final   Train dice :  0.11178547114388754
+********************
+Starting validation :
+********************
+Looping over validation data: 100%|███████████████████████████████████████████████████████████| 161/161 [23:55<00:00,  8.92s/it]
+     Epoch Final   validation loss :  1.1573994951958981
+     Epoch Final   validation dice :  0.11517931243277485
+********************
+Starting testing :
+********************
+Looping over testing data: 100%|██████████████████████████████████████████████████████████████| 201/201 [29:56<00:00,  8.94s/it]
+     Epoch Final   testing loss :  1.1567759638402
+     Epoch Final   testing dice :  0.11519374346258629
+Time taken for epoch :  190.9808626929919  mins
+Current Best epoch:  1
+********************
+********************
+Starting Epoch :  3
+********************
+Starting Training :
+********************
+Looping over training data: 100%|███████████████████████████████████████████████████████████| 643/643 [4:14:23<00:00, 23.74s/it]
+     Epoch Final   Train loss :  1.0997640179994503
+     Epoch Final   Train dice :  0.11122884433339951
+********************
+Starting validation :
+********************
+Looping over validation data: 100%|███████████████████████████████████████████████████████████| 161/161 [30:44<00:00, 11.45s/it]
+     Epoch Final   validation loss :  6.090681130841652
+     Epoch Final   validation dice :  0.12851629313659965
+********************
+Starting testing :
+********************
+Looping over testing data: 100%|██████████████████████████████████████████████████████████████| 201/201 [38:25<00:00, 11.47s/it]
+     Epoch Final   testing loss :  6.096029266196104
+     Epoch Final   testing dice :  0.12852237996325563
+Time taken for epoch :  323.5573390642802  mins
+Current Best epoch:  1
+********************
+********************
+Starting Epoch :  4
+********************
+Starting Training :
+********************
+Looping over training data: 100%|███████████████████████████████████████████████████████████| 643/643 [4:23:01<00:00, 24.54s/it]
+     Epoch Final   Train loss :  1.083580064551085
+     Epoch Final   Train dice :  0.10727769898867719
+********************
+Starting validation :
+********************
+Looping over validation data: 100%|███████████████████████████████████████████████████████████| 161/161 [32:26<00:00, 12.09s/it]
+     Epoch Final   validation loss :  2.035671476992021
+     Epoch Final   validation dice :  0.05437980270626382
+********************
+Starting testing :
+********************
+Looping over testing data: 100%|██████████████████████████████████████████████████████████████| 201/201 [40:30<00:00, 12.09s/it]
+     Epoch Final   testing loss :  2.007821313184292
+     Epoch Final   testing dice :  0.05430909468611674
+Time taken for epoch :  335.9568666418393  mins
+Current Best epoch:  1
+********************
+********************
+Starting Epoch :  5
+********************
+Starting Training :
+********************
+Looping over training data:  95%|███████████████████████████████████████████████████████▊   | 608/643 [4:24:48<37:05, 63.58s/it]
