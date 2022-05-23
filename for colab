@@ -21,6 +21,15 @@ pip install -e .
 ## verify installation
 python ./gandlf_verifyInstall
 
+Usage:
+
+cd drive
+cd MyDrive
+cd Nephila_AI
+cd GaNDLF
+export PYTHONPATH=/usr/local
+source activate venv_gandlf
+
 
 
 bash: cannot set terminal process group (59): Inappropriate ioctl for device
