@@ -1,0 +1,878 @@
+bash: cannot set terminal process group (59): Inappropriate ioctl for device
+bash: no job control in this shell
+/content# cd drive
+/content/drive# cdMyDrive
+bash: cdMyDrive: command not found
+/content/drive# cd MyDrive
+/content/drive/MyDrive# cd Nephila_AI
+/content/drive/MyDrive/Nephila_AI# cd GaNDLF
+ -y
+bash: conda: command not found
+l -c pytorch -c tensorcomp tensor_comprehensions
+bash: conda: command not found
+ive/Anaconda3-5.1.0-Linux-x86_64.sh
+--2022-05-23 07:19:00--  https://repo.continuum.io/archive/Anaconda3-5.1.0-Linux-x86_64.sh
+Resolving repo.continuum.io (repo.continuum.io)... 104.18.201.79, 104.18.200.79, 2606:4700::6812:c94f, ...
+Connecting to repo.continuum.io (repo.continuum.io)|104.18.201.79|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://repo.anaconda.com/archive/Anaconda3-5.1.0-Linux-x86_64.sh [following]
+--2022-05-23 07:19:00--  https://repo.anaconda.com/archive/Anaconda3-5.1.0-Linux-x86_64.sh
+Resolving repo.anaconda.com (repo.anaconda.com)... 104.16.130.3, 104.16.131.3, 2606:4700::6810:8303, ...
+Connecting to repo.anaconda.com (repo.anaconda.com)|104.16.130.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 577996269 (551M) [application/x-sh]
+Saving to: ‘Anaconda3-5.1.0-Linux-x86_64.sh’
+
+Anaconda3-5.1.0-Lin 100%[===================>] 551.22M  41.3MB/s    in 14s     
+
+2022-05-23 07:19:13 (40.5 MB/s) - ‘Anaconda3-5.1.0-Linux-x86_64.sh’ saved [577996269/577996269]
+
+sh
+sh
+f -p /usr/local
+PREFIX=/usr/local
+installing: python-3.6.4-hc3d631a_1 ...
+Python 3.6.4 :: Anaconda, Inc.
+installing: ca-certificates-2017.08.26-h1d4fec5_0 ...
+installing: conda-env-2.6.0-h36134e3_1 ...
+installing: intel-openmp-2018.0.0-hc7b2577_8 ...
+installing: libgcc-ng-7.2.0-h7cc24e2_2 ...
+installing: libgfortran-ng-7.2.0-h9f7466a_2 ...
+installing: libstdcxx-ng-7.2.0-h7a57d05_2 ...
+installing: bzip2-1.0.6-h9a117a8_4 ...
+installing: expat-2.2.5-he0dffb1_0 ...
+installing: gmp-6.1.2-h6c8ec71_1 ...
+installing: graphite2-1.3.10-hf63cedd_1 ...
+installing: icu-58.2-h9c2bf20_1 ...
+installing: jbig-2.1-hdba287a_0 ...
+installing: jpeg-9b-h024ee3a_2 ...
+installing: libffi-3.2.1-hd88cf55_4 ...
+installing: libsodium-1.0.15-hf101ebd_0 ...
+installing: libtool-2.4.6-h544aabb_3 ...
+installing: libxcb-1.12-hcd93eb1_4 ...
+installing: lzo-2.10-h49e0be7_2 ...
+installing: mkl-2018.0.1-h19d6760_4 ...
+installing: ncurses-6.0-h9df7e31_2 ...
+installing: openssl-1.0.2n-hb7f436b_0 ...
+installing: patchelf-0.9-hf79760b_2 ...
+installing: pcre-8.41-hc27e229_1 ...
+installing: pixman-0.34.0-hceecf20_3 ...
+installing: tk-8.6.7-hc745277_3 ...
+installing: unixodbc-2.3.4-hc36303a_1 ...
+installing: xz-5.2.3-h55aa19d_2 ...
+installing: yaml-0.1.7-had09818_2 ...
+installing: zlib-1.2.11-ha838bed_2 ...
+installing: glib-2.53.6-h5d9569c_2 ...
+installing: hdf5-1.10.1-h9caa474_1 ...
+installing: libedit-3.1-heed3624_0 ...
+installing: libpng-1.6.34-hb9fc6fc_0 ...
+installing: libssh2-1.8.0-h9cfc8f7_4 ...
+installing: libtiff-4.0.9-h28f6b97_0 ...
+installing: libxml2-2.9.7-h26e45fe_0 ...
+installing: mpfr-3.1.5-h11a74b3_2 ...
+installing: pandoc-1.19.2.1-hea2e7c5_1 ...
+installing: readline-7.0-ha6073c6_4 ...
+installing: zeromq-4.2.2-hbedb6e5_2 ...
+installing: dbus-1.12.2-hc3f9b76_1 ...
+installing: freetype-2.8-hab7d2ae_1 ...
+installing: gstreamer-1.12.4-hb53b477_0 ...
+installing: libcurl-7.58.0-h1ad7b7a_0 ...
+installing: libxslt-1.1.32-h1312cb7_0 ...
+installing: mpc-1.0.3-hec55b23_5 ...
+installing: sqlite-3.22.0-h1bed415_0 ...
+installing: curl-7.58.0-h84994c4_0 ...
+installing: fontconfig-2.12.4-h88586e7_1 ...
+installing: gst-plugins-base-1.12.4-h33fb286_0 ...
+installing: alabaster-0.7.10-py36h306e16b_0 ...
+installing: asn1crypto-0.24.0-py36_0 ...
+installing: attrs-17.4.0-py36_0 ...
+installing: backports-1.0-py36hfa02d7e_1 ...
+installing: beautifulsoup4-4.6.0-py36h49b8c8c_1 ...
+installing: bitarray-0.8.1-py36h14c3975_1 ...
+installing: boto-2.48.0-py36h6e4cd66_1 ...
+installing: cairo-1.14.12-h77bcde2_0 ...
+installing: certifi-2018.1.18-py36_0 ...
+installing: chardet-3.0.4-py36h0f667ec_1 ...
+installing: click-6.7-py36h5253387_0 ...
+installing: cloudpickle-0.5.2-py36_1 ...
+installing: colorama-0.3.9-py36h489cec4_0 ...
+installing: contextlib2-0.5.5-py36h6c84a62_0 ...
+installing: dask-core-0.16.1-py36_0 ...
+installing: decorator-4.2.1-py36_0 ...
+installing: docutils-0.14-py36hb0f60f5_0 ...
+installing: entrypoints-0.2.3-py36h1aec115_2 ...
+installing: et_xmlfile-1.0.1-py36hd6bccc3_0 ...
+installing: fastcache-1.0.2-py36h14c3975_2 ...
+installing: filelock-2.0.13-py36h646ffb5_0 ...
+installing: glob2-0.6-py36he249c77_0 ...
+installing: gmpy2-2.0.8-py36hc8893dd_2 ...
+installing: greenlet-0.4.12-py36h2d503a6_0 ...
+installing: heapdict-1.0.0-py36_2 ...
+installing: idna-2.6-py36h82fb2a8_1 ...
+installing: imagesize-0.7.1-py36h52d8127_0 ...
+installing: ipython_genutils-0.2.0-py36hb52b0d5_0 ...
+installing: itsdangerous-0.24-py36h93cc618_1 ...
+installing: jdcal-1.3-py36h4c697fb_0 ...
+installing: lazy-object-proxy-1.3.1-py36h10fcdad_0 ...
+installing: llvmlite-0.21.0-py36ha241eea_0 ...
+installing: locket-0.2.0-py36h787c0ad_1 ...
+installing: lxml-4.1.1-py36hf71bdeb_1 ...
+installing: markupsafe-1.0-py36hd9260cd_1 ...
+installing: mccabe-0.6.1-py36h5ad9710_1 ...
+installing: mistune-0.8.3-py36_0 ...
+installing: mkl-service-1.1.2-py36h17a0993_4 ...
+installing: mpmath-1.0.0-py36hfeacd6b_2 ...
+installing: msgpack-python-0.5.1-py36h6bb024c_0 ...
+installing: multipledispatch-0.4.9-py36h41da3fb_0 ...
+installing: numpy-1.14.0-py36h3dfced4_1 ...
+installing: olefile-0.45.1-py36_0 ...
+installing: pandocfilters-1.4.2-py36ha6701b7_1 ...
+installing: parso-0.1.1-py36h35f843b_0 ...
+installing: path.py-10.5-py36h55ceabb_0 ...
+installing: pep8-1.7.1-py36_0 ...
+installing: pickleshare-0.7.4-py36h63277f8_0 ...
+installing: pkginfo-1.4.1-py36h215d178_1 ...
+installing: pluggy-0.6.0-py36hb689045_0 ...
+installing: ply-3.10-py36hed35086_0 ...
+installing: psutil-5.4.3-py36h14c3975_0 ...
+installing: ptyprocess-0.5.2-py36h69acd42_0 ...
+installing: py-1.5.2-py36h29bf505_0 ...
+installing: pycodestyle-2.3.1-py36hf609f19_0 ...
+installing: pycosat-0.6.3-py36h0a5515d_0 ...
+installing: pycparser-2.18-py36hf9f622e_1 ...
+installing: pycrypto-2.6.1-py36h14c3975_7 ...
+installing: pycurl-7.43.0.1-py36hb7f436b_0 ...
+installing: pyodbc-4.0.22-py36hf484d3e_0 ...
+installing: pyparsing-2.2.0-py36hee85983_1 ...
+installing: pysocks-1.6.7-py36hd97a5b1_1 ...
+installing: pytz-2017.3-py36h63b9c63_0 ...
+installing: pyyaml-3.12-py36hafb9ca4_1 ...
+installing: pyzmq-16.0.3-py36he2533c7_0 ...
+installing: qt-5.6.2-h974d657_12 ...
+installing: qtpy-1.3.1-py36h3691cc8_0 ...
+installing: rope-0.10.7-py36h147e2ec_0 ...
+installing: ruamel_yaml-0.15.35-py36h14c3975_1 ...
+installing: send2trash-1.4.2-py36_0 ...
+installing: simplegeneric-0.8.1-py36_2 ...
+installing: sip-4.18.1-py36h51ed4ed_2 ...
+installing: six-1.11.0-py36h372c433_1 ...
+installing: snowballstemmer-1.2.1-py36h6febd40_0 ...
+installing: sortedcontainers-1.5.9-py36_0 ...
+installing: sphinxcontrib-1.0-py36h6d0f590_1 ...
+installing: sqlalchemy-1.2.1-py36h14c3975_0 ...
+installing: tblib-1.3.2-py36h34cf8b6_0 ...
+installing: testpath-0.3.1-py36h8cadb63_0 ...
+installing: toolz-0.9.0-py36_0 ...
+installing: tornado-4.5.3-py36_0 ...
+installing: typing-3.6.2-py36h7da032a_0 ...
+installing: unicodecsv-0.14.1-py36ha668878_0 ...
+installing: wcwidth-0.1.7-py36hdf4376a_0 ...
+installing: webencodings-0.5.1-py36h800622e_1 ...
+installing: werkzeug-0.14.1-py36_0 ...
+installing: wrapt-1.10.11-py36h28b7045_0 ...
+installing: xlrd-1.1.0-py36h1db9f0c_1 ...
+installing: xlsxwriter-1.0.2-py36h3de1aca_0 ...
+installing: xlwt-1.3.0-py36h7b00a1f_0 ...
+installing: babel-2.5.3-py36_0 ...
+installing: backports.shutil_get_terminal_size-1.0.0-py36hfea85ff_2 ...
+installing: bottleneck-1.2.1-py36haac1ea0_0 ...
+installing: cffi-1.11.4-py36h9745a5d_0 ...
+installing: conda-verify-2.0.0-py36h98955d8_0 ...
+installing: cycler-0.10.0-py36h93f1223_0 ...
+installing: cytoolz-0.9.0-py36h14c3975_0 ...
+installing: h5py-2.7.1-py36h3585f63_0 ...
+installing: harfbuzz-1.7.4-hc5b324e_0 ...
+installing: html5lib-1.0.1-py36h2f9c1c0_0 ...
+installing: jedi-0.11.1-py36_0 ...
+installing: networkx-2.1-py36_0 ...
+installing: nltk-3.2.5-py36h7532b22_0 ...
+installing: numba-0.36.2-np114py36hc6662d5_0 ...
+installing: numexpr-2.6.4-py36hc4a3f9a_0 ...
+installing: openpyxl-2.4.10-py36_0 ...
+installing: packaging-16.8-py36ha668100_1 ...
+installing: partd-0.3.8-py36h36fd896_0 ...
+installing: pathlib2-2.3.0-py36h49efa8e_0 ...
+installing: pexpect-4.3.1-py36_0 ...
+installing: pillow-5.0.0-py36h3deb7b8_0 ...
+installing: pyqt-5.6.0-py36h0386399_5 ...
+installing: python-dateutil-2.6.1-py36h88d3b88_1 ...
+installing: pywavelets-0.5.2-py36he602eb0_0 ...
+installing: qtawesome-0.4.4-py36h609ed8c_0 ...
+installing: scipy-1.0.0-py36hbf646e7_0 ...
+installing: setuptools-38.4.0-py36_0 ...
+installing: singledispatch-3.4.0.3-py36h7a266c3_0 ...
+installing: sortedcollections-0.5.3-py36h3c761f9_0 ...
+installing: sphinxcontrib-websupport-1.0.1-py36hb5cb234_1 ...
+installing: sympy-1.1.1-py36hc6d1c1c_0 ...
+installing: terminado-0.8.1-py36_1 ...
+installing: traitlets-4.3.2-py36h674d592_0 ...
+installing: zict-0.1.3-py36h3a3bf81_0 ...
+installing: astroid-1.6.1-py36_0 ...
+installing: bleach-2.1.2-py36_0 ...
+installing: clyent-1.2.2-py36h7e57e65_1 ...
+installing: cryptography-2.1.4-py36hd09be54_0 ...
+installing: cython-0.27.3-py36h1860423_0 ...
+installing: datashape-0.5.4-py36h3ad6b5c_0 ...
+installing: distributed-1.20.2-py36_0 ...
+installing: get_terminal_size-1.0.0-haa9412d_0 ...
+installing: gevent-1.2.2-py36h2fe25dc_0 ...
+installing: imageio-2.2.0-py36he555465_0 ...
+installing: isort-4.2.15-py36had401c0_0 ...
+installing: jinja2-2.10-py36ha16c418_0 ...
+installing: jsonschema-2.6.0-py36h006f8b5_0 ...
+installing: jupyter_core-4.4.0-py36h7c827e3_0 ...
+installing: matplotlib-2.1.2-py36h0e671d2_0 ...
+installing: navigator-updater-0.1.0-py36h14770f7_0 ...
+installing: nose-1.3.7-py36hcdf7029_2 ...
+installing: pandas-0.22.0-py36hf484d3e_0 ...
+installing: pango-1.41.0-hd475d92_0 ...
+installing: patsy-0.5.0-py36_0 ...
+installing: pyflakes-1.6.0-py36h7bd6a15_0 ...
+installing: pygments-2.2.0-py36h0d3125c_0 ...
+installing: pytables-3.4.2-py36h3b5282a_2 ...
+installing: pytest-3.3.2-py36_0 ...
+installing: scikit-learn-0.19.1-py36h7aa7ec6_0 ...
+installing: wheel-0.30.0-py36hfd4bba0_1 ...
+installing: astropy-2.0.3-py36h14c3975_0 ...
+installing: bkcharts-0.2-py36h735825a_0 ...
+installing: bokeh-0.12.13-py36h2f9c1c0_0 ...
+installing: flask-0.12.2-py36hb24657c_0 ...
+installing: jupyter_client-5.2.2-py36_0 ...
+installing: nbformat-4.4.0-py36h31c9010_0 ...
+installing: pip-9.0.1-py36h6c6f9ce_4 ...
+installing: prompt_toolkit-1.0.15-py36h17d85b1_0 ...
+installing: pylint-1.8.2-py36_0 ...
+installing: pyopenssl-17.5.0-py36h20ba746_0 ...
+installing: statsmodels-0.8.0-py36h8533d0b_0 ...
+installing: dask-0.16.1-py36_0 ...
+installing: flask-cors-3.0.3-py36h2d857d3_0 ...
+installing: ipython-6.2.1-py36h88c514a_1 ...
+installing: nbconvert-5.3.1-py36hb41ffb7_0 ...
+installing: seaborn-0.8.1-py36hfad7ec4_0 ...
+installing: urllib3-1.22-py36hbe7ace6_0 ...
+installing: ipykernel-4.8.0-py36_0 ...
+installing: odo-0.5.1-py36h90ed295_0 ...
+installing: requests-2.18.4-py36he2e5f8d_1 ...
+installing: scikit-image-0.13.1-py36h14c3975_1 ...
+installing: anaconda-client-1.6.9-py36_0 ...
+installing: blaze-0.11.3-py36h4e06776_0 ...
+installing: jupyter_console-5.2.0-py36he59e554_1 ...
+installing: notebook-5.4.0-py36_0 ...
+installing: qtconsole-4.3.1-py36h8f73b5b_0 ...
+installing: sphinx-1.6.6-py36_0 ...
+installing: anaconda-project-0.8.2-py36h44fb852_0 ...
+installing: jupyterlab_launcher-0.10.2-py36_0 ...
+installing: numpydoc-0.7.0-py36h18f165f_0 ...
+installing: widgetsnbextension-3.1.0-py36_0 ...
+installing: anaconda-navigator-1.7.0-py36_0 ...
+installing: ipywidgets-7.1.1-py36_0 ...
+installing: jupyterlab-0.31.5-py36_0 ...
+installing: spyder-3.2.6-py36_0 ...
+installing: _ipyw_jlab_nb_ext_conf-0.1.0-py36he11e457_0 ...
+installing: jupyter-1.0.0-py36_4 ...
+installing: anaconda-5.1.0-py36_2 ...
+installing: conda-4.4.10-py36_0 ...
+installing: conda-build-3.4.1-py36_0 ...
+installation finished.
+WARNING:
+    You currently have a PYTHONPATH environment variable set. This may cause
+    unexpected behavior when running the Python interpreter in Anaconda3.
+    For best results, please verify that your PYTHONPATH only points to
+    directories of packages that are compatible with the Python interpreter
+    in Anaconda3: /usr/local
+ -y
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.4.10
+  latest version: 4.12.0
+
+Please update conda by running
+
+    $ conda update -n base conda
+
+
+
+## Package Plan ##
+
+  environment location: /usr/local/envs/venv_gandlf
+
+  added / updated specs: 
+    - python=3.7
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    openssl-1.1.1o             |       h7f8727e_0         3.8 MB
+    pip-21.2.2                 |   py37h06a4308_0         2.0 MB
+    libffi-3.3                 |       he6710b0_2          54 KB
+    ca-certificates-2022.4.26  |       h06a4308_0         132 KB
+    tk-8.6.11                  |       h1ccaba5_1         3.3 MB
+    libstdcxx-ng-11.2.0        |       h1234567_0         6.1 MB
+    python-3.7.13              |       h12debd9_0        53.5 MB
+    xz-5.2.5                   |       h7f8727e_1         389 KB
+    wheel-0.37.1               |     pyhd3eb1b0_0          31 KB
+    libgcc-ng-11.2.0           |       h1234567_0         8.5 MB
+    ncurses-6.3                |       h7f8727e_2         1.0 MB
+    ld_impl_linux-64-2.38      |       h1181459_1         732 KB
+    zlib-1.2.12                |       h7f8727e_2         130 KB
+    readline-8.1.2             |       h7f8727e_1         423 KB
+    certifi-2022.5.18.1        |   py37h06a4308_0         150 KB
+    sqlite-3.38.3              |       hc218d9a_0         1.5 MB
+    setuptools-61.2.0          |   py37h06a4308_0         1.3 MB
+    ------------------------------------------------------------
+                                           Total:        83.0 MB
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates:  2022.4.26-h06a4308_0      
+    certifi:          2022.5.18.1-py37h06a4308_0
+    ld_impl_linux-64: 2.38-h1181459_1           
+    libffi:           3.3-he6710b0_2            
+    libgcc-ng:        11.2.0-h1234567_0         
+    libstdcxx-ng:     11.2.0-h1234567_0         
+    ncurses:          6.3-h7f8727e_2            
+    openssl:          1.1.1o-h7f8727e_0         
+    pip:              21.2.2-py37h06a4308_0     
+    python:           3.7.13-h12debd9_0         
+    readline:         8.1.2-h7f8727e_1          
+    setuptools:       61.2.0-py37h06a4308_0     
+    sqlite:           3.38.3-hc218d9a_0         
+    tk:               8.6.11-h1ccaba5_1         
+    wheel:            0.37.1-pyhd3eb1b0_0       
+    xz:               5.2.5-h7f8727e_1          
+    zlib:             1.2.12-h7f8727e_2         
+
+
+Downloading and Extracting Packages
+openssl 1.1.1o: 100% 1.0/1 [00:01<00:00,  1.78s/it]               
+pip 21.2.2: 100% 1.0/1 [00:01<00:00,  1.54s/it]               
+libffi 3.3: 100% 1.0/1 [00:00<00:00, 11.26it/s]
+ca-certificates 2022.4.26: 100% 1.0/1 [00:00<00:00, 12.97it/s]
+tk 8.6.11: 100% 1.0/1 [00:01<00:00,  1.69s/it]               
+libstdcxx-ng 11.2.0: 100% 1.0/1 [00:02<00:00,  3.04s/it] 
+python 3.7.13: 100% 1.0/1 [00:20<00:00, 20.67s/it]               
+xz 5.2.5: 100% 1.0/1 [00:00<00:00,  3.33it/s]   
+wheel 0.37.1: 100% 1.0/1 [00:00<00:00, 18.03it/s]
+libgcc-ng 11.2.0: 100% 1.0/1 [00:03<00:00,  3.34s/it]               
+ncurses 6.3: 100% 1.0/1 [00:01<00:00,  1.49s/it]              
+ld_impl_linux-64 2.38: 100% 1.0/1 [00:00<00:00,  2.17it/s]               
+zlib 1.2.12: 100% 1.0/1 [00:00<00:00,  9.05it/s]    
+readline 8.1.2: 100% 1.0/1 [00:00<00:00,  3.16it/s]               
+certifi 2022.5.18.1: 100% 1.0/1 [00:00<00:00, 12.48it/s]
+sqlite 3.38.3: 100% 1.0/1 [00:00<00:00,  1.35it/s]               
+setuptools 61.2.0: 100% 1.0/1 [00:01<00:00,  1.18s/it]               
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use:
+# > source activate venv_gandlf
+#
+# To deactivate an active environment, use:
+# > source deactivate
+#
+
+/content/drive/MyDrive/Nephila_AI/GaNDLF# source activate venv_gandlf
+(venv_gandlf) /content/drive/MyDrive/Nephila_AI/GaNDLF# source deactivate
+/content/drive/MyDrive/Nephila_AI/GaNDLF# source activate venv_gandlf
+rg/whl/lts/1.8/torch_lts.html
+Looking in links: https://download.pytorch.org/whl/lts/1.8/torch_lts.html
+Collecting torch==1.8.2+cu102
+  Downloading https://download.pytorch.org/whl/lts/1.8/cu102/torch-1.8.2%2Bcu102-cp37-cp37m-linux_x86_64.whl (804.1 MB)
+     |████████████████████████████████| 804.1 MB 8.4 kB/s 
+Collecting torchvision==0.9.2+cu102
+  Downloading https://download.pytorch.org/whl/lts/1.8/cu102/torchvision-0.9.2%2Bcu102-cp37-cp37m-linux_x86_64.whl (17.3 MB)
+     |████████████████████████████████| 17.3 MB 14.6 MB/s 
+Collecting torchaudio==0.8.2
+  Downloading https://download.pytorch.org/whl/lts/1.8/torchaudio-0.8.2-cp37-cp37m-linux_x86_64.whl (1.9 MB)
+     |████████████████████████████████| 1.9 MB 1.1 MB/s 
+Collecting numpy
+  Downloading numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+     |████████████████████████████████| 15.7 MB 305 kB/s 
+Collecting typing-extensions
+  Downloading typing_extensions-4.2.0-py3-none-any.whl (24 kB)
+Collecting pillow>=4.1.1
+  Downloading Pillow-9.1.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+     |████████████████████████████████| 3.1 MB 34.6 MB/s 
+Installing collected packages: typing-extensions, numpy, torch, pillow, torchvision, torchaudio
+Successfully installed numpy-1.21.6 pillow-9.1.1 torch-1.8.2+cu102 torchaudio-0.8.2 torchvision-0.9.2+cu102 typing-extensions-4.2.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+==2022.1.0
+Collecting openvino-dev==2022.1.0
+  Downloading openvino_dev-2022.1.0-7019-py3-none-any.whl (5.8 MB)
+     |████████████████████████████████| 5.8 MB 4.3 MB/s 
+Collecting progress>=1.5
+  Downloading progress-1.6.tar.gz (7.8 kB)
+Collecting pyyaml>=5.4.1
+  Downloading PyYAML-6.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (596 kB)
+     |████████████████████████████████| 596 kB 48.7 MB/s 
+Collecting nltk>=3.5
+  Downloading nltk-3.7-py3-none-any.whl (1.5 MB)
+     |████████████████████████████████| 1.5 MB 43.4 MB/s 
+Collecting pydicom>=2.1.2
+  Downloading pydicom-2.3.0-py3-none-any.whl (2.0 MB)
+     |████████████████████████████████| 2.0 MB 44.2 MB/s 
+Collecting addict>=2.4.0
+  Downloading addict-2.4.0-py3-none-any.whl (3.8 kB)
+Collecting openvino-telemetry>=2022.1.0
+  Downloading openvino_telemetry-2022.1.1-py3-none-any.whl (20 kB)
+Collecting parasail>=1.2.4
+  Downloading parasail-1.2.4-py2.py3-none-manylinux2010_x86_64.whl (14.1 MB)
+     |████████████████████████████████| 14.1 MB 20.5 MB/s 
+Requirement already satisfied: pillow>=8.1.2 in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from openvino-dev==2022.1.0) (9.1.1)
+Collecting scikit-image>=0.17.2
+  Downloading scikit_image-0.19.2-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (13.5 MB)
+     |████████████████████████████████| 13.5 MB 20.0 MB/s 
+Collecting scikit-learn~=0.24.1
+  Downloading scikit_learn-0.24.2-cp37-cp37m-manylinux2010_x86_64.whl (22.3 MB)
+     |████████████████████████████████| 22.3 MB 1.5 MB/s 
+Collecting lmdb>=1.2.1
+  Downloading lmdb-1.3.0-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (298 kB)
+     |████████████████████████████████| 298 kB 35.3 MB/s 
+Collecting nibabel>=3.2.1
+  Downloading nibabel-3.2.2-py3-none-any.whl (3.3 MB)
+     |████████████████████████████████| 3.3 MB 33.8 MB/s 
+Collecting opencv-python==4.5.*
+  Downloading opencv_python-4.5.5.64-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (60.5 MB)
+     |████████████████████████████████| 60.5 MB 56 kB/s 
+Collecting defusedxml>=0.7.1
+  Downloading defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+Collecting tokenizers~=0.10.1
+  Downloading tokenizers-0.10.3-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (3.3 MB)
+     |████████████████████████████████| 3.3 MB 34.2 MB/s 
+Collecting sentencepiece>=0.1.95
+  Downloading sentencepiece-0.1.96-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.2 MB)
+     |████████████████████████████████| 1.2 MB 47.5 MB/s 
+Collecting pyclipper>=1.2.1
+  Downloading pyclipper-1.3.0.post2-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (603 kB)
+     |████████████████████████████████| 603 kB 39.7 MB/s 
+Collecting openvino==2022.1.0
+  Downloading openvino-2022.1.0-7019-cp37-cp37m-manylinux_2_27_x86_64.whl (26.1 MB)
+     |████████████████████████████████| 26.1 MB 64.2 MB/s 
+Collecting jstyleson~=0.0.2
+  Downloading jstyleson-0.0.2.tar.gz (2.0 kB)
+Collecting transformers>=4.5
+  Downloading transformers-4.19.2-py3-none-any.whl (4.2 MB)
+     |████████████████████████████████| 4.2 MB 34.8 MB/s 
+Collecting shapely>=1.7.1
+  Downloading Shapely-1.8.2-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (2.0 MB)
+     |████████████████████████████████| 2.0 MB 41.7 MB/s 
+Collecting imagecodecs~=2021.11.20
+  Downloading imagecodecs-2021.11.20-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (31.0 MB)
+     |████████████████████████████████| 31.0 MB 1.6 MB/s 
+Collecting numpy<=1.21,>=1.16.6
+  Downloading numpy-1.21.0-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+     |████████████████████████████████| 15.7 MB 159 kB/s 
+Collecting pandas~=1.1.5
+  Downloading pandas-1.1.5-cp37-cp37m-manylinux1_x86_64.whl (9.5 MB)
+     |████████████████████████████████| 9.5 MB 47.6 MB/s 
+Collecting texttable~=1.6.3
+  Downloading texttable-1.6.4-py2.py3-none-any.whl (10 kB)
+Collecting rawpy>=0.16.0
+  Downloading rawpy-0.17.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.9 MB)
+     |████████████████████████████████| 1.9 MB 46.0 MB/s 
+Collecting requests>=2.25.1
+  Downloading requests-2.27.1-py2.py3-none-any.whl (63 kB)
+     |████████████████████████████████| 63 kB 1.4 MB/s 
+Collecting numpy<=1.21,>=1.16.6
+  Downloading numpy-1.19.5-cp37-cp37m-manylinux2010_x86_64.whl (14.8 MB)
+     |████████████████████████████████| 14.8 MB 22.9 MB/s 
+Collecting tqdm>=4.54.1
+  Downloading tqdm-4.64.0-py2.py3-none-any.whl (78 kB)
+     |████████████████████████████████| 78 kB 5.8 MB/s 
+Collecting networkx~=2.6
+  Downloading networkx-2.6.3-py3-none-any.whl (1.9 MB)
+     |████████████████████████████████| 1.9 MB 41.6 MB/s 
+Collecting fast-ctc-decode>=0.2.5
+  Downloading fast_ctc_decode-0.3.2-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (517 kB)
+     |████████████████████████████████| 517 kB 31.5 MB/s 
+Collecting py-cpuinfo>=7.0.0
+  Downloading py-cpuinfo-8.0.0.tar.gz (99 kB)
+     |████████████████████████████████| 99 kB 8.3 MB/s 
+Collecting scipy~=1.5.4
+  Downloading scipy-1.5.4-cp37-cp37m-manylinux1_x86_64.whl (25.9 MB)
+     |████████████████████████████████| 25.9 MB 1.3 MB/s 
+Collecting packaging>=14.3
+  Downloading packaging-21.3-py3-none-any.whl (40 kB)
+     |████████████████████████████████| 40 kB 4.6 MB/s 
+Requirement already satisfied: setuptools in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from nibabel>=3.2.1->openvino-dev==2022.1.0) (61.2.0)
+Collecting joblib
+  Downloading joblib-1.1.0-py2.py3-none-any.whl (306 kB)
+     |████████████████████████████████| 306 kB 40.1 MB/s 
+Collecting click
+  Downloading click-8.1.3-py3-none-any.whl (96 kB)
+     |████████████████████████████████| 96 kB 5.5 MB/s 
+Collecting regex>=2021.8.3
+  Downloading regex-2022.4.24-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (749 kB)
+     |████████████████████████████████| 749 kB 28.2 MB/s 
+Collecting pyparsing!=3.0.5,>=2.0.2
+  Downloading pyparsing-3.0.9-py3-none-any.whl (98 kB)
+     |████████████████████████████████| 98 kB 5.8 MB/s 
+Collecting python-dateutil>=2.7.3
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+     |████████████████████████████████| 247 kB 55.6 MB/s 
+Collecting pytz>=2017.2
+  Downloading pytz-2022.1-py2.py3-none-any.whl (503 kB)
+     |████████████████████████████████| 503 kB 32.7 MB/s 
+Collecting six>=1.5
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.9-py2.py3-none-any.whl (138 kB)
+     |████████████████████████████████| 138 kB 45.5 MB/s 
+Collecting charset-normalizer~=2.0.0
+  Downloading charset_normalizer-2.0.12-py3-none-any.whl (39 kB)
+Collecting idna<4,>=2.5
+  Downloading idna-3.3-py3-none-any.whl (61 kB)
+     |████████████████████████████████| 61 kB 6.2 MB/s 
+Requirement already satisfied: certifi>=2017.4.17 in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from requests>=2.25.1->openvino-dev==2022.1.0) (2022.5.18.1)
+Collecting imageio>=2.4.1
+  Downloading imageio-2.19.2-py3-none-any.whl (3.4 MB)
+     |████████████████████████████████| 3.4 MB 25.1 MB/s 
+Collecting PyWavelets>=1.1.1
+  Downloading PyWavelets-1.3.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (6.4 MB)
+     |████████████████████████████████| 6.4 MB 18.1 MB/s 
+Collecting tifffile>=2019.7.26
+  Downloading tifffile-2021.11.2-py3-none-any.whl (178 kB)
+     |████████████████████████████████| 178 kB 57.1 MB/s 
+Collecting threadpoolctl>=2.0.0
+  Downloading threadpoolctl-3.1.0-py3-none-any.whl (14 kB)
+Collecting transformers>=4.5
+  Downloading transformers-4.19.1-py3-none-any.whl (4.2 MB)
+     |████████████████████████████████| 4.2 MB 27.8 MB/s 
+  Downloading transformers-4.19.0-py3-none-any.whl (4.2 MB)
+     |████████████████████████████████| 4.2 MB 47.5 MB/s 
+  Downloading transformers-4.18.0-py3-none-any.whl (4.0 MB)
+     |████████████████████████████████| 4.0 MB 40.3 MB/s 
+  Downloading transformers-4.17.0-py3-none-any.whl (3.8 MB)
+     |████████████████████████████████| 3.8 MB 23.8 MB/s 
+Collecting filelock
+  Downloading filelock-3.7.0-py3-none-any.whl (10 kB)
+Collecting sacremoses
+  Downloading sacremoses-0.0.53.tar.gz (880 kB)
+     |████████████████████████████████| 880 kB 67.5 MB/s 
+Collecting transformers>=4.5
+  Downloading transformers-4.16.2-py3-none-any.whl (3.5 MB)
+     |████████████████████████████████| 3.5 MB 41.7 MB/s 
+Collecting huggingface-hub<1.0,>=0.1.0
+  Downloading huggingface_hub-0.6.0-py3-none-any.whl (84 kB)
+     |████████████████████████████████| 84 kB 2.7 MB/s 
+Collecting importlib-metadata
+  Downloading importlib_metadata-4.11.4-py3-none-any.whl (18 kB)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from huggingface-hub<1.0,>=0.1.0->transformers>=4.5->openvino-dev==2022.1.0) (4.2.0)
+Collecting zipp>=0.5
+  Downloading zipp-3.8.0-py3-none-any.whl (5.4 kB)
+Building wheels for collected packages: jstyleson, progress, py-cpuinfo, sacremoses
+  Building wheel for jstyleson (setup.py) ... done
+  Created wheel for jstyleson: filename=jstyleson-0.0.2-py3-none-any.whl size=2402 sha256=c2013f227cbffbef064a9ba57918d76516d9ed7bbb1e2735afc03ffe65528682
+  Stored in directory: /root/.cache/pip/wheels/be/8e/03/d5962b9032cc1b638d1891a3bfbfdc6627cac531754f79ef23
+  Building wheel for progress (setup.py) ... done
+  Created wheel for progress: filename=progress-1.6-py3-none-any.whl size=9632 sha256=f5b96a928eafe0e7202e32ac887909e7df795a4e8bd6d26e44f502d97dc4c5ec
+  Stored in directory: /root/.cache/pip/wheels/8e/d7/61/498d8e27dc11e9805b01eb3539e2ee344436fc226daeb5fe87
+  Building wheel for py-cpuinfo (setup.py) ... done
+  Created wheel for py-cpuinfo: filename=py_cpuinfo-8.0.0-py3-none-any.whl size=22258 sha256=dfe73b961597086096505a3d7dc4613602e5ae29bb5b22e66db066f89df62f15
+  Stored in directory: /root/.cache/pip/wheels/d2/f1/1f/041add21dc9c4220157f1bd2bd6afe1f1a49524c3396b94401
+  Building wheel for sacremoses (setup.py) ... done
+  Created wheel for sacremoses: filename=sacremoses-0.0.53-py3-none-any.whl size=895260 sha256=fecf0c61341155f0cb27749f73aa8215bf8512816f3b501d7194cc03de4dd885
+  Stored in directory: /root/.cache/pip/wheels/87/39/dd/a83eeef36d0bf98e7a4d1933a4ad2d660295a40613079bafc9
+Successfully built jstyleson progress py-cpuinfo sacremoses
+Installing collected packages: zipp, urllib3, pyparsing, importlib-metadata, idna, charset-normalizer, tqdm, six, requests, regex, pyyaml, packaging, numpy, joblib, filelock, click, tokenizers, tifffile, threadpoolctl, scipy, sacremoses, PyWavelets, pytz, python-dateutil, networkx, imageio, huggingface-hub, transformers, texttable, shapely, sentencepiece, scikit-learn, scikit-image, rawpy, pydicom, pyclipper, py-cpuinfo, progress, parasail, pandas, openvino-telemetry, openvino, opencv-python, nltk, nibabel, lmdb, jstyleson, imagecodecs, fast-ctc-decode, defusedxml, addict, openvino-dev
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.21.6
+    Uninstalling numpy-1.21.6:
+      Successfully uninstalled numpy-1.21.6
+Successfully installed PyWavelets-1.3.0 addict-2.4.0 charset-normalizer-2.0.12 click-8.1.3 defusedxml-0.7.1 fast-ctc-decode-0.3.2 filelock-3.7.0 huggingface-hub-0.6.0 idna-3.3 imagecodecs-2021.11.20 imageio-2.19.2 importlib-metadata-4.11.4 joblib-1.1.0 jstyleson-0.0.2 lmdb-1.3.0 networkx-2.6.3 nibabel-3.2.2 nltk-3.7 numpy-1.19.5 opencv-python-4.5.5.64 openvino-2022.1.0 openvino-dev-2022.1.0 openvino-telemetry-2022.1.1 packaging-21.3 pandas-1.1.5 parasail-1.2.4 progress-1.6 py-cpuinfo-8.0.0 pyclipper-1.3.0.post2 pydicom-2.3.0 pyparsing-3.0.9 python-dateutil-2.8.2 pytz-2022.1 pyyaml-6.0 rawpy-0.17.1 regex-2022.4.24 requests-2.27.1 sacremoses-0.0.53 scikit-image-0.19.2 scikit-learn-0.24.2 scipy-1.5.4 sentencepiece-0.1.96 shapely-1.8.2 six-1.16.0 texttable-1.6.4 threadpoolctl-3.1.0 tifffile-2021.11.2 tokenizers-0.10.3 tqdm-4.64.0 transformers-4.16.2 urllib3-1.26.9 zipp-3.8.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+(venv_gandlf) /content/drive/MyDrive/Nephila_AI/GaNDLF# pip install -e .
+Obtaining file:///content/drive/MyDrive/Nephila_AI/GaNDLF
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+    Preparing wheel metadata ... done
+Requirement already satisfied: pandas in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from GANDLF==0.0.14.dev0) (1.1.5)
+Requirement already satisfied: pydicom in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from GANDLF==0.0.14.dev0) (2.3.0)
+Collecting pylint
+  Downloading pylint-2.13.9-py3-none-any.whl (438 kB)
+     |████████████████████████████████| 438 kB 4.2 MB/s 
+Collecting matplotlib
+  Downloading matplotlib-3.5.2-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (11.2 MB)
+     |████████████████████████████████| 11.2 MB 38.5 MB/s 
+Collecting coverage
+  Downloading coverage-6.4-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (208 kB)
+     |████████████████████████████████| 208 kB 39.3 MB/s 
+Collecting pytest-cov
+  Downloading pytest_cov-3.0.0-py3-none-any.whl (20 kB)
+Collecting tiffslide
+  Downloading tiffslide-1.2.0-py3-none-any.whl (19 kB)
+Collecting psutil
+  Downloading psutil-5.9.1-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (281 kB)
+     |████████████████████████████████| 281 kB 50.5 MB/s 
+Collecting torchmetrics==0.5.1
+  Downloading torchmetrics-0.5.1-py3-none-any.whl (282 kB)
+     |████████████████████████████████| 282 kB 47.2 MB/s 
+Collecting seaborn
+  Downloading seaborn-0.11.2-py3-none-any.whl (292 kB)
+     |████████████████████████████████| 292 kB 48.0 MB/s 
+Collecting OpenPatchMiner==0.1.6
+  Downloading OpenPatchMiner-0.1.6-py3-none-any.whl (3.7 kB)
+Requirement already satisfied: scikit-learn>=0.23.2 in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from GANDLF==0.0.14.dev0) (0.24.2)
+Collecting pyvips
+  Downloading pyvips-2.2.0.tar.gz (632 kB)
+     |████████████████████████████████| 632 kB 45.5 MB/s 
+Collecting medcam
+  Downloading medcam-0.1.21.tar.gz (18 kB)
+Requirement already satisfied: scipy in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from GANDLF==0.0.14.dev0) (1.5.4)
+Requirement already satisfied: pyyaml in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from GANDLF==0.0.14.dev0) (6.0)
+Requirement already satisfied: requests>=2.25.0 in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from GANDLF==0.0.14.dev0) (2.27.1)
+Requirement already satisfied: torchvision in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from GANDLF==0.0.14.dev0) (0.9.2+cu102)
+Collecting pytest
+  Downloading pytest-7.1.2-py3-none-any.whl (297 kB)
+     |████████████████████████████████| 297 kB 47.4 MB/s 
+Requirement already satisfied: opencv-python in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from GANDLF==0.0.14.dev0) (4.5.5.64)
+Collecting zarr==2.10.3
+  Downloading zarr-2.10.3-py3-none-any.whl (146 kB)
+     |████████████████████████████████| 146 kB 52.3 MB/s 
+Collecting numpy==1.21.0
+  Using cached numpy-1.21.0-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+Requirement already satisfied: scikit-image>=0.19.1 in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from GANDLF==0.0.14.dev0) (0.19.2)
+Requirement already satisfied: setuptools in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from GANDLF==0.0.14.dev0) (61.2.0)
+Requirement already satisfied: torch==1.8.2 in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from GANDLF==0.0.14.dev0) (1.8.2+cu102)
+Collecting torchio==0.18.57
+  Downloading torchio-0.18.57-py2.py3-none-any.whl (156 kB)
+     |████████████████████████████████| 156 kB 51.8 MB/s 
+Collecting SimpleITK!=2.0.*
+  Downloading SimpleITK-2.1.1.2-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (48.4 MB)
+     |████████████████████████████████| 48.4 MB 16 kB/s 
+Collecting onnx
+  Downloading onnx-1.11.0-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (12.8 MB)
+     |████████████████████████████████| 12.8 MB 31.9 MB/s 
+Requirement already satisfied: tqdm in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from GANDLF==0.0.14.dev0) (4.64.0)
+Collecting pickle5>=0.0.11
+  Downloading pickle5-0.0.12-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (256 kB)
+     |████████████████████████████████| 256 kB 53.0 MB/s 
+Collecting black
+  Downloading black-22.3.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.4 MB)
+     |████████████████████████████████| 1.4 MB 32.7 MB/s 
+Requirement already satisfied: wheel in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from OpenPatchMiner==0.1.6->GANDLF==0.0.14.dev0) (0.37.1)
+Collecting twine
+  Downloading twine-4.0.0-py3-none-any.whl (36 kB)
+Requirement already satisfied: imagecodecs in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from OpenPatchMiner==0.1.6->GANDLF==0.0.14.dev0) (2021.11.20)
+Collecting keyring
+  Downloading keyring-23.5.1-py3-none-any.whl (33 kB)
+Requirement already satisfied: tifffile in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from OpenPatchMiner==0.1.6->GANDLF==0.0.14.dev0) (2021.11.2)
+Requirement already satisfied: typing-extensions in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from torch==1.8.2->GANDLF==0.0.14.dev0) (4.2.0)
+Requirement already satisfied: click in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from torchio==0.18.57->GANDLF==0.0.14.dev0) (8.1.3)
+Requirement already satisfied: nibabel in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from torchio==0.18.57->GANDLF==0.0.14.dev0) (3.2.2)
+Collecting Deprecated
+  Downloading Deprecated-1.2.13-py2.py3-none-any.whl (9.6 kB)
+Collecting humanize
+  Downloading humanize-4.1.0-py3-none-any.whl (101 kB)
+     |████████████████████████████████| 101 kB 9.6 MB/s 
+Requirement already satisfied: packaging in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from torchmetrics==0.5.1->GANDLF==0.0.14.dev0) (21.3)
+Collecting asciitree
+  Downloading asciitree-0.3.3.tar.gz (4.0 kB)
+Collecting fasteners
+  Downloading fasteners-0.17.3-py3-none-any.whl (18 kB)
+Collecting numcodecs>=0.6.4
+  Downloading numcodecs-0.9.1-cp37-cp37m-manylinux2010_x86_64.whl (6.2 MB)
+     |████████████████████████████████| 6.2 MB 23.8 MB/s 
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from requests>=2.25.0->GANDLF==0.0.14.dev0) (1.26.9)
+Requirement already satisfied: charset-normalizer~=2.0.0 in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from requests>=2.25.0->GANDLF==0.0.14.dev0) (2.0.12)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from requests>=2.25.0->GANDLF==0.0.14.dev0) (2022.5.18.1)
+Requirement already satisfied: idna<4,>=2.5 in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from requests>=2.25.0->GANDLF==0.0.14.dev0) (3.3)
+Requirement already satisfied: PyWavelets>=1.1.1 in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from scikit-image>=0.19.1->GANDLF==0.0.14.dev0) (1.3.0)
+Requirement already satisfied: networkx>=2.2 in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from scikit-image>=0.19.1->GANDLF==0.0.14.dev0) (2.6.3)
+Requirement already satisfied: pillow!=7.1.0,!=7.1.1,!=8.3.0,>=6.1.0 in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from scikit-image>=0.19.1->GANDLF==0.0.14.dev0) (9.1.1)
+Requirement already satisfied: imageio>=2.4.1 in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from scikit-image>=0.19.1->GANDLF==0.0.14.dev0) (2.19.2)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from packaging->torchmetrics==0.5.1->GANDLF==0.0.14.dev0) (3.0.9)
+Requirement already satisfied: threadpoolctl>=2.0.0 in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from scikit-learn>=0.23.2->GANDLF==0.0.14.dev0) (3.1.0)
+Requirement already satisfied: joblib>=0.11 in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from scikit-learn>=0.23.2->GANDLF==0.0.14.dev0) (1.1.0)
+Collecting pathspec>=0.9.0
+  Downloading pathspec-0.9.0-py2.py3-none-any.whl (31 kB)
+Collecting tomli>=1.1.0
+  Downloading tomli-2.0.1-py3-none-any.whl (12 kB)
+Collecting mypy-extensions>=0.4.3
+  Downloading mypy_extensions-0.4.3-py2.py3-none-any.whl (4.5 kB)
+Collecting typed-ast>=1.4.2
+  Downloading typed_ast-1.5.4-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (843 kB)
+     |████████████████████████████████| 843 kB 54.9 MB/s 
+Collecting platformdirs>=2
+  Downloading platformdirs-2.5.2-py3-none-any.whl (14 kB)
+Requirement already satisfied: importlib-metadata in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from click->torchio==0.18.57->GANDLF==0.0.14.dev0) (4.11.4)
+Collecting wrapt<2,>=1.10
+  Downloading wrapt-1.14.1-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (75 kB)
+     |████████████████████████████████| 75 kB 3.2 MB/s 
+Requirement already satisfied: zipp>=0.5 in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from importlib-metadata->click->torchio==0.18.57->GANDLF==0.0.14.dev0) (3.8.0)
+Collecting jeepney>=0.4.2
+  Downloading jeepney-0.8.0-py3-none-any.whl (48 kB)
+     |████████████████████████████████| 48 kB 4.4 MB/s 
+Collecting SecretStorage>=3.2
+  Downloading SecretStorage-3.3.2-py3-none-any.whl (15 kB)
+Collecting cryptography>=2.0
+  Downloading cryptography-37.0.2-cp36-abi3-manylinux_2_24_x86_64.whl (4.0 MB)
+     |████████████████████████████████| 4.0 MB 39.0 MB/s 
+Collecting cffi>=1.12
+  Using cached cffi-1.15.0-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (427 kB)
+Collecting pycparser
+  Using cached pycparser-2.21-py2.py3-none-any.whl (118 kB)
+Requirement already satisfied: python-dateutil>=2.7 in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from matplotlib->GANDLF==0.0.14.dev0) (2.8.2)
+Collecting kiwisolver>=1.0.1
+  Downloading kiwisolver-1.4.2-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.1 MB)
+     |████████████████████████████████| 1.1 MB 45.8 MB/s 
+Collecting cycler>=0.10
+  Downloading cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting fonttools>=4.22.0
+  Downloading fonttools-4.33.3-py3-none-any.whl (930 kB)
+     |████████████████████████████████| 930 kB 44.0 MB/s 
+Requirement already satisfied: six>=1.5 in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from python-dateutil>=2.7->matplotlib->GANDLF==0.0.14.dev0) (1.16.0)
+Collecting decorator
+  Downloading decorator-5.1.1-py3-none-any.whl (9.1 kB)
+Collecting future
+  Downloading future-0.18.2.tar.gz (829 kB)
+     |████████████████████████████████| 829 kB 53.1 MB/s 
+Collecting Mako
+  Downloading Mako-1.2.0-py3-none-any.whl (78 kB)
+     |████████████████████████████████| 78 kB 5.6 MB/s 
+Collecting Markdown
+  Downloading Markdown-3.3.7-py3-none-any.whl (97 kB)
+     |████████████████████████████████| 97 kB 4.7 MB/s 
+Collecting MarkupSafe
+  Downloading MarkupSafe-2.1.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Requirement already satisfied: pytz in /usr/local/envs/venv_gandlf/lib/python3.7/site-packages (from medcam->GANDLF==0.0.14.dev0) (2022.1)
+Collecting protobuf>=3.12.2
+  Downloading protobuf-3.20.1-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.0 MB)
+     |████████████████████████████████| 1.0 MB 53.3 MB/s 
+Collecting mccabe<0.8,>=0.6
+  Downloading mccabe-0.7.0-py2.py3-none-any.whl (7.3 kB)
+Collecting isort<6,>=4.2.5
+  Downloading isort-5.10.1-py3-none-any.whl (103 kB)
+     |████████████████████████████████| 103 kB 57.3 MB/s 
+Collecting dill>=0.2
+  Downloading dill-0.3.5.1-py2.py3-none-any.whl (95 kB)
+     |████████████████████████████████| 95 kB 3.8 MB/s 
+Collecting astroid<=2.12.0-dev0,>=2.11.5
+  Downloading astroid-2.11.5-py3-none-any.whl (250 kB)
+     |████████████████████████████████| 250 kB 47.2 MB/s 
+Collecting lazy-object-proxy>=1.4.0
+  Downloading lazy_object_proxy-1.7.1-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (57 kB)
+     |████████████████████████████████| 57 kB 3.4 MB/s 
+Collecting attrs>=19.2.0
+  Downloading attrs-21.4.0-py2.py3-none-any.whl (60 kB)
+     |████████████████████████████████| 60 kB 5.2 MB/s 
+Collecting py>=1.8.2
+  Downloading py-1.11.0-py2.py3-none-any.whl (98 kB)
+     |████████████████████████████████| 98 kB 5.6 MB/s 
+Collecting pluggy<2.0,>=0.12
+  Downloading pluggy-1.0.0-py2.py3-none-any.whl (13 kB)
+Collecting iniconfig
+  Downloading iniconfig-1.1.1-py2.py3-none-any.whl (5.0 kB)
+Collecting fsspec
+  Downloading fsspec-2022.5.0-py3-none-any.whl (140 kB)
+     |████████████████████████████████| 140 kB 24.0 MB/s 
+Collecting backports.cached-property
+  Downloading backports.cached_property-1.0.1-py3-none-any.whl (5.7 kB)
+Collecting rich>=12.0.0
+  Downloading rich-12.4.1-py3-none-any.whl (231 kB)
+     |████████████████████████████████| 231 kB 48.1 MB/s 
+Collecting pkginfo>=1.8.1
+  Downloading pkginfo-1.8.2-py2.py3-none-any.whl (26 kB)
+Collecting readme-renderer>=21.0
+  Downloading readme_renderer-35.0-py3-none-any.whl (14 kB)
+Collecting requests-toolbelt!=0.9.0,>=0.8.0
+  Downloading requests_toolbelt-0.9.1-py2.py3-none-any.whl (54 kB)
+     |████████████████████████████████| 54 kB 2.3 MB/s 
+Collecting rfc3986>=1.4.0
+  Downloading rfc3986-2.0.0-py2.py3-none-any.whl (31 kB)
+Collecting bleach>=2.1.0
+  Downloading bleach-5.0.0-py3-none-any.whl (160 kB)
+     |████████████████████████████████| 160 kB 33.6 MB/s 
+Collecting Pygments>=2.5.1
+  Downloading Pygments-2.12.0-py3-none-any.whl (1.1 MB)
+     |████████████████████████████████| 1.1 MB 47.6 MB/s 
+Collecting docutils>=0.13.1
+  Downloading docutils-0.18.1-py2.py3-none-any.whl (570 kB)
+     |████████████████████████████████| 570 kB 53.1 MB/s 
+Collecting webencodings
+  Downloading webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Collecting commonmark<0.10.0,>=0.9.0
+  Downloading commonmark-0.9.1-py2.py3-none-any.whl (51 kB)
+     |████████████████████████████████| 51 kB 5.6 MB/s 
+Building wheels for collected packages: asciitree, medcam, future, pyvips
+  Building wheel for asciitree (setup.py) ... done
+  Created wheel for asciitree: filename=asciitree-0.3.3-py3-none-any.whl size=5050 sha256=30ab879374280f1f17f1a73219e483f9fd87918ea2917109dccc18d7c8fbecc5
+  Stored in directory: /root/.cache/pip/wheels/12/1c/38/0def51e15add93bff3f4bf9c248b94db0839b980b8535e72a0
+  Building wheel for medcam (setup.py) ... done
+  Created wheel for medcam: filename=medcam-0.1.21-py3-none-any.whl size=23212 sha256=b36c6bcd198b6c87d8484cb84374a14f91bc5f822d1f323fcafef60d11d293d4
+  Stored in directory: /root/.cache/pip/wheels/92/38/fb/3bad41901702c3f6b7b0a9a77035baf774a4aea03c4d9c4b6a
+  Building wheel for future (setup.py) ... done
+  Created wheel for future: filename=future-0.18.2-py3-none-any.whl size=491070 sha256=e73b5834982fceb48b2841c37807883599e4edc79886f7d8471e3e4332c5d5c9
+  Stored in directory: /root/.cache/pip/wheels/56/b0/fe/4410d17b32f1f0c3cf54cdfb2bc04d7b4b8f4ae377e2229ba0
+  Building wheel for pyvips (setup.py) ... done
+  Created wheel for pyvips: filename=pyvips-2.2.0-py2.py3-none-any.whl size=53406 sha256=e31b5acc067464b4759ff9bc8c88b3cce88beec9b7c12d8685ff8d7b1ecb6260
+  Stored in directory: /root/.cache/pip/wheels/9c/1e/06/75a93ddd43483ff5ec16fdafaf96b1734c567ceb7eb9b7bb2c
+Successfully built asciitree medcam future pyvips
+Installing collected packages: pycparser, cffi, webencodings, jeepney, cryptography, SecretStorage, Pygments, numpy, docutils, commonmark, bleach, wrapt, typed-ast, tomli, rich, rfc3986, requests-toolbelt, readme-renderer, py, pluggy, pkginfo, numcodecs, MarkupSafe, lazy-object-proxy, kiwisolver, keyring, iniconfig, fonttools, fasteners, cycler, coverage, attrs, asciitree, zarr, twine, SimpleITK, pytest, protobuf, platformdirs, pathspec, mypy-extensions, mccabe, matplotlib, Markdown, Mako, isort, humanize, future, fsspec, dill, Deprecated, decorator, backports.cached-property, astroid, torchmetrics, torchio, tiffslide, seaborn, pyvips, pytest-cov, pylint, psutil, pickle5, OpenPatchMiner, onnx, medcam, black, GANDLF
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.19.5
+    Uninstalling numpy-1.19.5:
+      Successfully uninstalled numpy-1.19.5
+  Running setup.py develop for GANDLF
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+openvino 2022.1.0 requires numpy<1.20,>=1.16.6, but you have numpy 1.21.0 which is incompatible.
+openvino-dev 2022.1.0 requires numpy<1.20,>=1.16.6, but you have numpy 1.21.0 which is incompatible.
+Successfully installed Deprecated-1.2.13 GANDLF-0.0.14.dev0 Mako-1.2.0 Markdown-3.3.7 MarkupSafe-2.1.1 OpenPatchMiner-0.1.6 Pygments-2.12.0 SecretStorage-3.3.2 SimpleITK-2.1.1.2 asciitree-0.3.3 astroid-2.11.5 attrs-21.4.0 backports.cached-property-1.0.1 black-22.3.0 bleach-5.0.0 cffi-1.15.0 commonmark-0.9.1 coverage-6.4 cryptography-37.0.2 cycler-0.11.0 decorator-5.1.1 dill-0.3.5.1 docutils-0.18.1 fasteners-0.17.3 fonttools-4.33.3 fsspec-2022.5.0 future-0.18.2 humanize-4.1.0 iniconfig-1.1.1 isort-5.10.1 jeepney-0.8.0 keyring-23.5.1 kiwisolver-1.4.2 lazy-object-proxy-1.7.1 matplotlib-3.5.2 mccabe-0.7.0 medcam-0.1.21 mypy-extensions-0.4.3 numcodecs-0.9.1 numpy-1.21.0 onnx-1.11.0 pathspec-0.9.0 pickle5-0.0.12 pkginfo-1.8.2 platformdirs-2.5.2 pluggy-1.0.0 protobuf-3.20.1 psutil-5.9.1 py-1.11.0 pycparser-2.21 pylint-2.13.9 pytest-7.1.2 pytest-cov-3.0.0 pyvips-2.2.0 readme-renderer-35.0 requests-toolbelt-0.9.1 rfc3986-2.0.0 rich-12.4.1 seaborn-0.11.2 tiffslide-1.2.0 tomli-2.0.1 torchio-0.18.57 torchmetrics-0.5.1 twine-4.0.0 typed-ast-1.5.4 webencodings-0.5.1 wrapt-1.14.1 zarr-2.10.3
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+stall
+GaNDLF installed version: 0.0.14-dev
+GANDLF's git submodules were successfully imported.
+GaNDLF is ready. See https://cbica.github.io/GaNDLF/usage
+abels/model -t True -d gpu
+WARNING: Initializing 'norm_type' as 'batch'
+WARNING: Initializing 'verbose' as False
+WARNING: Initializing 'medcam_enabled' as False
+WARNING: Initializing 'save_training' as False
+WARNING: Initializing 'save_output' as False
+WARNING: Initializing 'in_memory' as False
+WARNING: Initializing 'pin_memory_dataloader' as False
+WARNING: Initializing 'enable_padding' as False
+WARNING: Initializing 'scaling_factor' as 1
+WARNING: Initializing 'clip_grad' as None
+WARNING: Initializing 'track_memory_usage' as False
+WARNING: Initializing 'print_rgb_label_warning' as True
+WARNING: Initializing 'data_postprocessing' as {}
+WARNING: Initializing 'grid_aggregator_overlap' as crop
+WARNING: Initializing 'clip_mode' as None
+WARNING: Setting default step_size to: 0.02
+Trying to resume training without changing any parameters from previous run.
+Using previously saved parameter file ./images_and_labels/model/parameters.pkl
+Using previously saved testing data ./images_and_labels/model/testing_0/data_testing.pkl
+Using previously saved training+validation data ./images_and_labels/model/testing_0/data_trainAndVal.pkl
+Number of channels :  1
+Constructing queue for train data:   0% 0/643 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "gandlf_run", line 118, in <module>
+    args.reset,
+  File "/content/drive/MyDrive/Nephila_AI/GaNDLF/GANDLF/cli/main_run.py", line 91, in main_run
+    reset=reset,
+  File "/content/drive/MyDrive/Nephila_AI/GaNDLF/GANDLF/training_manager.py", line 254, in TrainingManager
+    testing_data=testingData,
+  File "/content/drive/MyDrive/Nephila_AI/GaNDLF/GANDLF/compute/training_loop.py", line 239, in training_loop
+    ) = create_pytorch_objects(params, training_data, validation_data, device)
+  File "/content/drive/MyDrive/Nephila_AI/GaNDLF/GANDLF/compute/generic.py", line 48, in create_pytorch_objects
+    train_loader = get_train_loader(parameters)
+  File "/content/drive/MyDrive/Nephila_AI/GaNDLF/GANDLF/data/__init__.py", line 24, in get_train_loader
+    loader_type="train",
+  File "/content/drive/MyDrive/Nephila_AI/GaNDLF/GANDLF/data/ImagesFromDataFrame.py", line 117, in ImagesFromDataFrame
+    dataframe[channel][patient]
+  File "/usr/local/envs/venv_gandlf/lib/python3.7/site-packages/torchio/data/image.py", line 641, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/local/envs/venv_gandlf/lib/python3.7/site-packages/torchio/data/image.py", line 156, in __init__
+    self.path = self._parse_path(path)
+  File "/usr/local/envs/venv_gandlf/lib/python3.7/site-packages/torchio/data/image.py", line 421, in _parse_path
+    return self._parse_single_path(path)
+  File "/usr/local/envs/venv_gandlf/lib/python3.7/site-packages/torchio/data/image.py", line 409, in _parse_single_path
+    raise FileNotFoundError(f'File not found: "{path}"')
+FileNotFoundError: File not found: "/gdrive/My Drive/Nephila_AI/GaNDLF/images_and_labels/panoramic_images/144868154.png"
+(venv_gandlf) /content/drive/MyDrive/Nephila_AI/GaNDLF# 
