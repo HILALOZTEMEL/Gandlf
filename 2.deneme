@@ -1,0 +1,90 @@
+Microsoft Windows [Version 10.0.19043.1706]
+(c) Microsoft Corporation. Tüm hakları saklıdır.
+
+C:\Users\pc>cd gandlf
+
+C:\Users\pc\GaNDLF>conda activate venv_gandlf
+
+(venv_gandlf) C:\Users\pc\GaNDLF>python gandlf_run  -c ./images_and_labels/model.yaml -i ./images_and_labels/train.csv -m ./images_and_labels/model -t True -d gpu
+WARNING: Initializing 'norm_type' as 'batch'
+WARNING: Initializing 'verbose' as False
+WARNING: Initializing 'medcam_enabled' as False
+WARNING: Initializing 'save_training' as False
+WARNING: Initializing 'save_output' as False
+WARNING: Initializing 'in_memory' as False
+WARNING: Initializing 'pin_memory_dataloader' as False
+WARNING: Initializing 'enable_padding' as False
+WARNING: Initializing 'scaling_factor' as 1
+WARNING: Initializing 'clip_grad' as None
+WARNING: Initializing 'track_memory_usage' as False
+WARNING: Initializing 'print_rgb_label_warning' as True
+WARNING: Initializing 'data_postprocessing' as {}
+WARNING: Initializing 'grid_aggregator_overlap' as crop
+WARNING: Initializing 'clip_mode' as None
+WARNING: Setting default step_size to: 0.02
+Trying to resume training without changing any parameters from previous run.
+Number of channels :  1
+Constructing queue for train data: 100%|██████████████████████████████████████████████████████| 643/643 [00:08<00:00, 71.93it/s]
+Calculating weights
+Constructing queue for penalty data: 100%|███████████████████████████████████████████████████| 643/643 [00:02<00:00, 281.86it/s]
+Looping over training data for penalty calculation: 100%|████████████████████████████████████| 643/643 [00:04<00:00, 135.37it/s]
+Constructing queue for validation data: 100%|█████████████████████████████████████████████████| 161/161 [00:02<00:00, 65.16it/s]
+All Keys :  ['subject_id', '1', 'spacing', 'label', 'path_to_metadata']
+Since Device is CPU, Mixed Precision Training is set to False
+Constructing queue for testing data: 100%|███████████████████████████████████████████████████| 201/201 [00:00<00:00, 257.28it/s]
+Initializing training at : 2022/05/23::16:46:44
+Using device: gpu
+********************
+********************
+Starting Epoch :  0
+********************
+Starting Training :
+********************
+Looping over training data: 100%|█████████████████████████████████████████████████████████████| 643/643 [10:48<00:00,  1.01s/it]
+     Epoch Final   Train loss :  0.9990194871859454
+     Epoch Final   Train dice :  0.1534144966334429
+********************
+Starting validation :
+********************
+Looping over validation data: 100%|███████████████████████████████████████████████████████████| 161/161 [00:29<00:00,  5.38it/s]
+     Epoch Final   validation loss :  0.9995309684587561
+     Epoch Final   validation dice :  0.16797281810955972
+********************
+Starting testing :
+********************
+Looping over testing data: 100%|██████████████████████████████████████████████████████████████| 201/201 [00:40<00:00,  4.99it/s]
+     Epoch Final   testing loss :  0.9995366711521623
+     Epoch Final   testing dice :  0.16806029569153763
+Time taken for epoch :  11.97880965868632  mins
+WARNING: Current model is not supported by ONNX/OpenVINO!
+Current Best epoch:  0
+********************
+********************
+Starting Epoch :  1
+********************
+Starting Training :
+********************
+Looping over training data: 100%|███████████████████████████████████████████████████████████| 643/643 [1:33:09<00:00,  8.69s/it]
+     Epoch Final   Train loss :  0.999031696034071
+     Epoch Final   Train dice :  0.1506956510512306
+********************
+Starting validation :
+********************
+Looping over validation data: 100%|███████████████████████████████████████████████████████████| 161/161 [00:31<00:00,  5.08it/s]
+     Epoch Final   validation loss :  0.9992258278479488
+     Epoch Final   validation dice :  0.16354831433074074
+********************
+Starting testing :
+********************
+Looping over testing data: 100%|██████████████████████████████████████████████████████████████| 201/201 [00:40<00:00,  4.99it/s]
+     Epoch Final   testing loss :  0.9992292283186271
+     Epoch Final   testing dice :  0.16365583967510147
+Time taken for epoch :  94.35841416517893  mins
+Current Best epoch:  1
+********************
+********************
+Starting Epoch :  2
+********************
+Starting Training :
+********************
+Looping over training data:  14%|████████▍                                                   | 90/643 [15:21<1:56:33, 12.65s/it]
